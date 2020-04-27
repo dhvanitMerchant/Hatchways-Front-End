@@ -1,0 +1,37 @@
+body {
+  font-weight: 100;
+  background-image: url('/images/wall.jpeg');
+  background-color: black;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: right;
+}
+
+h1, h2, h3, h4, h5, h6, p, input {
+  font-weight: 100;
+}
+
+.user-list {
+  line-height: 100%;  
+}
+
+.user-list .list-group-item {
+  padding: .3rem 1.5rem;
+}  
+
+.user-list .list-group-item:first-child {
+  border-top: none;
+  border-radius: 0;
+}
+
+.user-list .list-group-item img {
+  width: 70px;
+}
+
+.user-list .list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.user-list a {
+  text-decoration: none;
+}
